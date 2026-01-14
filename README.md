@@ -1,6 +1,6 @@
 # Closet (Close Tabs) 🚀
-
-A privacy-focused, cross-browser tab management tool that automatically kills tabs from blocked domains. Avoid tab chasing by avoiding annoying redirects.
+![Extension Demo](/demo.png)
+A tab management tool that automatically kills tabs from blocked domains. Avoid tab chasing by avoiding annoying redirects.
 
 ## Features
 * **Kill-Switch:** Auto-closes tabs for domains in your blocklist the millisecond they try to load.
@@ -17,13 +17,19 @@ A privacy-focused, cross-browser tab management tool that automatically kills ta
     ```bash
     git clone https://github.com/fskamau/closet.git
     ```
-2.  **Open Extensions Page:**
+2.  **Set your browser:**
+    * Open the `closet/src/` folder.
+
+    * Locate the file for your browser (e.g., `manifest-firefox.json`).
+
+    * Rename it to exactly `manifest.json` to activate it.
+3.  **Open Extensions Page:**
     * **Chrome/Edge:** Go to `chrome://extensions` and toggle **Developer mode** (top right).
     * **Firefox:** Go to `about:debugging#/runtime/this-firefox`.
-3.  **Load the Extension:**
+4.  **Load the Extension:**
     * **Chrome/Edge:** Click **Load unpacked** and select the `closet/src` folder.
     * **Firefox:** Click **Load Temporary Add-on...** and select the `manifest.json` file inside the `closet/src` folder.
-4.  **Enjoy:** Your tabs are now being managed by Closet.
+5.  **Enjoy:** Your tabs are now being managed by `Closet`.
 
 ---
 
